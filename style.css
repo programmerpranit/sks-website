@@ -1,0 +1,168 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0e1e2e !important;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #eae882;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #ea363b;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+button {
+    background-color: #ea363b;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.highlight {
+    color: #ea363b;
+    background-color: #ea363b;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h6 {
+    color: #ea363b;
+    font-size: 14px;
+}
+
+.topnav {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    /* min-height: 15vh; */
+}
+
+.top-section {
+    /* height: 75vh; */
+    /* background-color: white; */
+    padding: 20px;
+}
+
+.top-section p {
+    /* color: black; */
+}
+.top-section h1 {
+    font-weight: 700;
+    /* color: black; */
+}
+
+.about-section {
+    padding: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.feature p {
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('/media/line.png');
+}
+
+.line {
+    width: 20px;
+    height: 1px;
+    color: black;
+    background-color: #0e1e2e;
+    padding: 2px;
+}
+
+.circle {
+    background-color: #1f2e3e;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.services-section {
+    padding: 20px;
+    margin-bottom: -80px;
+}
+
+.card {
+    border-bottom: solid 2px #ea363b;
+    text-align: center;
+    background-color: #1f2e3e;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.properties {
+    padding: 20px;
+    text-align: center;
+}
+
+.photogrid img {
+    margin: 2px;
+}
+
+.corevalues {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.value {
+    width: 45%;
+    text-align: center;
+    background-color: #1f2e3e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 760px) {
+
+    .wrapper {
+        margin: auto;
+        max-width: 1200px;
+    }
+
+
+}
